@@ -14,9 +14,8 @@ class Declaration {
 class Main{
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
-        Scanner cout = new Scanner(System.out)
         Declaration c = new Declaration();
-        cout.println("Enter value of gun: ");
+        System.out.println("Enter value of gun: ");
         int gunVal = myObj.nextInt();
         c.setGun(gunVal);
         System.out.println("The value of gun is: " + c.getGun());
